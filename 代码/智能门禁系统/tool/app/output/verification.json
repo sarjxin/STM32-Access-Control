@@ -1,0 +1,33 @@
+{
+  "app": "门禁助手",
+  "version": "1.2",
+  "applicationId": "cn.dooraccess.app",
+  "min_sdk": 23,
+  "target_sdk": 35,
+  "apk": "E:\\STM32\\project\\智能门锁项目\\代码\\8-1引入蓝牙模块\\tool\\app\\output\\DoorAccess-v1.2.apk",
+  "apk_bytes": 86762,
+  "apk_sha256": "63278f54a5b0bf2cba4cf3a9cd8a27274f01173b4ba0911b968f92d50720f12a",
+  "protocol_checks": 91,
+  "lint_issues": [],
+  "build_verified": true,
+  "signature_verified": true,
+  "real_phone_tested": false,
+  "real_jdy31_tested": false,
+  "project_bytes": 4287556,
+  "gradle_cache": "D:\\app\\android\\gradle-home",
+  "temp": "D:\\app\\android\\temp",
+  "android_user_data": "D:\\app\\android\\user-home\\.android",
+  "default_c_gradle_exists": false,
+  "default_c_sdk_exists": false,
+  "version_code": 3,
+  "exit_command": "exitToMemu",
+  "exit_reply_required": false,
+  "exit_disconnect_after_send": false,
+  "project_size_excludes": [
+    "tmp/"
+  ],
+  "theme": "deep navy / cyan",
+  "native_status_halo": true,
+  "same_certificate_as_v1_1": true,
+  "certificate_sha256": "abcb72e89096ae6200cd2bf28e79b242f36620e52d1e352170aaf03395538722"
+}

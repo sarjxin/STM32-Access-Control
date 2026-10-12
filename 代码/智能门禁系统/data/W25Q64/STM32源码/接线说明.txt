@@ -1,0 +1,13 @@
+W25Q64  
+      DI        <->    PA7
+      CLK     <->    PA5
+      GND    <->    GND
+      DO       <->    PA6
+      CS        <->     PA4
+      VCC     <->     3.3v
+
+OLED   
+         VCC      <->        3.3V
+         GND     <->        GND
+         SCL       <->        PB8
+         SDA      <->        PB9

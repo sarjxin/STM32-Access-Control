@@ -1,0 +1,10 @@
+W25Q系列代码可通用 只是存储大小不同
+
+存储容量（24位地址）：
+	W25Q40：	  4Mbit / 512KByte
+	W25Q80：	  8Mbit / 1MByte
+	W25Q16：	  16Mbit / 2MByte
+	W25Q32：	  32Mbit / 4MByte
+	W25Q64：	  64Mbit / 8MByte
+	W25Q128：  128Mbit / 16MByte
+	W25Q256：  256Mbit / 32MByte

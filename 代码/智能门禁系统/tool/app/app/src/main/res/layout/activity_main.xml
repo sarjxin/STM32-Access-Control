@@ -1,0 +1,20 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/root"
+    android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:gravity="center_vertical"
+        android:paddingStart="22dp" android:paddingEnd="22dp" android:paddingTop="18dp" android:paddingBottom="16dp">
+        <LinearLayout android:layout_width="0dp" android:layout_weight="1" android:layout_height="wrap_content" android:orientation="vertical">
+            <TextView style="@style/Eyebrow" android:text="@string/activity_main_text_01" android:textColor="@color/green" android:textSize="11sp" android:letterSpacing="0.2"/>
+            <TextView android:id="@+id/page_title" style="@style/Title" android:layout_marginTop="5dp" android:text="@string/activity_main_text_02" android:textSize="23sp"/>
+        </LinearLayout>
+        <TextView android:id="@+id/connection_badge" android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:background="@drawable/bg_badge" android:text="@string/activity_main_text_03" android:textSize="11sp" android:textColor="@color/muted" android:accessibilityLiveRegion="polite"/>
+    </LinearLayout>
+    <FrameLayout android:id="@+id/page_container" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1"/>
+    <View android:layout_width="match_parent" android:layout_height="1dp" android:background="@color/line"/>
+    <LinearLayout android:id="@+id/navigation" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="72dp" android:orientation="horizontal" android:background="@color/nav"
+        android:paddingStart="8dp" android:paddingEnd="8dp" android:paddingTop="5dp" android:paddingBottom="8dp">
+        <TextView android:id="@+id/nav_control" style="@style/NavItem" android:text="@string/activity_main_text_04" android:drawableTop="@drawable/ic_shield"/>
+        <TextView android:id="@+id/nav_device" style="@style/NavItem" android:text="@string/activity_main_text_05" android:drawableTop="@drawable/ic_bluetooth"/>
+        <TextView android:id="@+id/nav_settings" style="@style/NavItem" android:text="@string/activity_main_text_06" android:drawableTop="@drawable/ic_sliders"/>
+    </LinearLayout>
+</LinearLayout>

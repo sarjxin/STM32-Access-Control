@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>1333532876</fileChecksum>
+  <configuration>
+    <name>Debug</name>
+    <outputs>
+      <file>$PROJ_DIR$\inc\clk.h</file>
+      <file>$PROJ_DIR$\inc\LED.H</file>
+      <file>$PROJ_DIR$\inc\delay.h</file>
+      <file>$PROJ_DIR$\inc\main.h</file>
+      <file>$PROJ_DIR$\inc\uart.h</file>
+      <file>$PROJ_DIR$\src\clk.c</file>
+      <file>$PROJ_DIR$\inc\stm8s_conf.h</file>
+      <file>$PROJ_DIR$\inc\stm8s_it.h</file>
+      <file>$PROJ_DIR$\src\delay.c</file>
+      <file>$PROJ_DIR$\src\LED.C</file>
+      <file>$PROJ_DIR$\src\main.c</file>
+      <file>$PROJ_DIR$\LIB\inc\stm8s_tim2.h</file>
+      <file>$PROJ_DIR$\src\uart.c</file>
+      <file>$PROJ_DIR$\src\stm8s_it.c</file>
+      <file>$PROJ_DIR$\main.c</file>
+      <file>$PROJ_DIR$\LIB\inc\stm8s_tim1.h</file>
+      <file>$PROJ_DIR$\LIB\inc\stm8s_gpio.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.o</file>
+      <file>$PROJ_DIR$\LIB\inc\stm8s.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm8_interrupt_vector.pbi</file>
+      <file>$PROJ_DIR$\LIB\inc\stm8s_clk.h</file>
+      <file>$PROJ_DIR$\LIB\inc\stm8s_beep.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm8s_it.pbi</file>
+      <file>$PROJ_DIR$\LIB\inc\stm8s_tim4.h</file>
+      <file>$PROJ_DIR$\LIB\inc\stm8s_flash.h</file>
+      <file>$PROJ_DIR$\LIB\inc\stm8s_iwdg.h</file>
+      <file>$PROJ_DIR$\LIB\inc\stm8s_i2c.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\intrinsics.h</file>
+      <file>$PROJ_DIR$\src\stm8_interrupt_vector.c</file>
+      <file>$PROJ_DIR$\LIB\inc\stm8s_spi.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\LED.pbi</file>
+      <file>$PROJ_DIR$\LIB\inc\stm8s_exti.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\LED.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\delay.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm8s_it.o</file>
+      <file>$PROJ_DIR$\LIB\inc\stm8s_itc.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\delay.pbi</file>
+      <file>$PROJ_DIR$\LIB\inc\stm8s_wwdg.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\uart.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\clk.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\clk.pbi</file>
+      <file>$PROJ_DIR$\LIB\inc\stm8s_adc1.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\TEST_CODE.pbd</file>
+      <file>$PROJ_DIR$\LIB\inc\stm8s_awu.h</file>
+      <file>$PROJ_DIR$\LIB\inc\stm8s_rst.h</file>
+      <file>$TOOLKIT_DIR$\lib\dbgstm8smd.a</file>
+      <file>$PROJ_DIR$\Debug\Obj\uart.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
+      <file>$PROJ_DIR$\Debug\Exe\templproj.out</file>
+      <file>$TOOLKIT_DIR$\lib\dlstm8smn.a</file>
+      <file>$TOOLKIT_DIR$\config\lnkstm8s003f3.icf</file>
+      <file>$PROJ_DIR$\LIB\inc\stm8s_uart1.h</file>
+      <file>$PROJ_DIR$\..\TEST_CODE\src\delay.c</file>
+      <file>$PROJ_DIR$\..\TEST_CODE\src\LED.C</file>
+      <file>$PROJ_DIR$\..\TEST_CODE\inc\stm8s_it.h</file>
+      <file>$PROJ_DIR$\..\TEST_CODE\inc\stm8s.h</file>
+      <file>$PROJ_DIR$\..\TEST_CODE\inc\uart.h</file>
+      <file>$PROJ_DIR$\..\TEST_CODE\inc\stm8s_conf.h</file>
+      <file>$PROJ_DIR$\..\TEST_CODE\LIB\inc\stm8s_adc1.h</file>
+      <file>$PROJ_DIR$\..\TEST_CODE\LIB\inc\stm8s_beep.h</file>
+      <file>$PROJ_DIR$\..\TEST_CODE\LIB\inc\stm8s_i2c.h</file>
+      <file>$PROJ_DIR$\..\TEST_CODE\LIB\inc\stm8s_flash.h</file>
+      <file>$PROJ_DIR$\..\TEST_CODE\LIB\inc\stm8s_awu.h</file>
+      <file>$PROJ_DIR$\..\TEST_CODE\LIB\inc\stm8s.h</file>
+      <file>$PROJ_DIR$\..\TEST_CODE\LIB\inc\stm8s_gpio.h</file>
+      <file>$PROJ_DIR$\..\TEST_CODE\LIB\inc\stm8s_exti.h</file>
+      <file>$PROJ_DIR$\..\TEST_CODE\LIB\inc\stm8s_clk.h</file>
+      <file>$PROJ_DIR$\..\TEST_CODE\LIB\inc\stm8s_itc.h</file>
+      <file>$PROJ_DIR$\..\TEST_CODE\LIB\inc\stm8s_iwdg.h</file>
+      <file>$PROJ_DIR$\..\TEST_CODE\LIB\inc\stm8s_rst.h</file>
+      <file>$PROJ_DIR$\..\TEST_CODE\LIB\inc\stm8s_spi.h</file>
+      <file>$PROJ_DIR$\..\TEST_CODE\LIB\inc\stm8s_tim1.h</file>
+      <file>$PROJ_DIR$\..\TEST_CODE\LIB\inc\stm8s_tim2.h</file>
+      <file>$PROJ_DIR$\..\TEST_CODE\LIB\inc\stm8s_tim4.h</file>
+      <file>$PROJ_DIR$\..\TEST_CODE\LIB\inc\stm8s_uart1.h</file>
+      <file>$PROJ_DIR$\..\TEST_CODE\LIB\inc\stm8s_wwdg.h</file>
+      <file>$PROJ_DIR$\..\TEST_CODE\inc\LED.H</file>
+      <file>$PROJ_DIR$\..\TEST_CODE\inc\clk.h</file>
+      <file>$PROJ_DIR$\..\TEST_CODE\inc\delay.h</file>
+      <file>$PROJ_DIR$\..\TEST_CODE\inc\main.h</file>
+    </outputs>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 48</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\clk.c</name>
+      <outputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 39</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 40</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 0 18 6 41 43 21 20 31 24 16 26 35 25 44 29 15 11 23 51 37 27</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 0 18 6 41 43 21 20 31 24 16 26 35 25 44 29 15 11 23 51 37 27</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\delay.c</name>
+      <outputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 33</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 36</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 2 18 6 41 43 21 20 31 24 16 26 35 25 44 29 15 11 23 51 37 27</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 2 18 6 41 43 21 20 31 24 16 26 35 25 44 29 15 11 23 51 37 27</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\LED.C</name>
+      <outputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 32</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 30</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 1 18 6 41 43 21 20 31 24 16 26 35 25 44 29 15 11 23 51 37 27</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 1 18 6 41 43 21 20 31 24 16 26 35 25 44 29 15 11 23 51 37 27</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\main.c</name>
+      <outputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 17</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 47</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 55 57 58 63 62 59 66 65 61 64 60 67 68 69 70 71 72 73 74 75 27 79 77 76 78 56</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 55 57 58 63 62 59 66 65 61 64 60 67 68 69 70 71 72 73 74 75 27 79 77 76 78 56</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\uart.c</name>
+      <outputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 46</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 38</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 56 55 57 58 63 62 59 66 65 61 64 60 67 68 69 70 71 72 73 74 75 27</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 56 55 57 58 63 62 59 66 65 61 64 60 67 68 69 70 71 72 73 74 75 27</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\stm8s_it.c</name>
+      <outputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 34</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 22</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 54 55 57 58 63 62 59 66 65 61 64 60 67 68 69 70 71 72 73 74 75 27 56 78</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 54 55 57 58 63 62 59 66 65 61 64 60 67 68 69 70 71 72 73 74 75 27 56 78</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\main.c</name>
+      <outputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 17</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 47</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\stm8_interrupt_vector.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 19</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 7 18 6 41 43 21 20 31 24 16 26 35 25 44 29 15 11 23 51 37 27</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 7 18 6 41 43 21 20 31 24 16 26 35 25 44 29 15 11 23 51 37 27</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Exe\templproj.out</name>
+      <inputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 50 32 39 33 17 34 46 49 45</file>
+        </tool>
+      </inputs>
+    </file>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\src\stm8_interrupt_vector.c</name>
+      <tool>ICCSTM8</tool>
+    </forcedrebuild>
+  </configuration>
+  <configuration>
+    <name>Release</name>
+    <outputs/>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>ILINK</tool>
+    </forcedrebuild>
+  </configuration>
+</project>
+
+

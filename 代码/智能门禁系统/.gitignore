@@ -1,0 +1,39 @@
+# dot files
+/.vscode/launch.json
+/.settings
+/.eide/log
+/.eide.usr.ctx.json
+
+# project out
+/build
+/bin
+/obj
+/out
+
+# eide template
+*.ept
+*.eide-template
+
+# Keil 编译产物及个人界面配置，提交时不带上这些编译产物
+/Objects/
+/Listings/
+*.uvguix.*
+
+# 忽略浏览器缓存
+/tool/app/tmp/  
+# 忽略Keil 插件的运行日志
+/.vscode/keil-assistant.log
+# Generated files and machine-specific configuration
+Objects/
+Listings/
+/data/**/Debug/Obj/
+/data/**/Debug/Exe/
+/.vscode/*.log
+/.vscode/*.log.lock
+/.clangd
+/tool/app/local.properties
+/tool/app/output/logs/
+~$*
+/data/**/*.exe
+/data/**/*.ini
+/data/CX1000AM开发资料/JDY-31-V1.3蓝牙SPP串口透传模块手册/蓝牙串口.apk
