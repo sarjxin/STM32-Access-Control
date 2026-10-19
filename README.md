@@ -2,6 +2,16 @@
 
 该项目具有密码开锁、指纹开锁、刷卡开锁、蓝牙开锁的功能。且带语音提示功能，语音的音量可调节；管理员密码与开锁密码可修改，卡片可添加或删除，指纹可添加或删除。
 
+## 项目演示
+
+[![智能门禁项目演示封面](docs/images/demo-poster.jpg)](https://github.com/sarjxin/STM32-Access-Control/raw/refs/heads/main/docs/videos/access-control-demo.mp4)
+
+**[获取完整演示视频（MP4，约 3 分 22 秒，1080p）](https://github.com/sarjxin/STM32-Access-Control/raw/refs/heads/main/docs/videos/access-control-demo.mp4)**
+
+点击封面或链接获取视频，可下载后播放。演示包含密码、指纹、刷卡、蓝牙开锁及管理员菜单操作。
+
+仓库提供完整时长的 H.264/AAC 压缩版，原始视频保留在本地。
+
 ## 硬件清单
 
 主控芯片：STM32F103C8T6；
